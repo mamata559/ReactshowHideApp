@@ -3,7 +3,7 @@ import {Component} from 'react'
 import './index.css'
 
 class ShowHide extends Component {
-  state = {showFirstName: true, showLastName: true}
+  state = {showFirstName: false, showLastName: false}
 
   onShowFirstName = () => {
     this.setState(prevState => ({showFirstName: !prevState.showFirstName}))
